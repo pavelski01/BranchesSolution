@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BranchesExtension", "BranchesExtension\BranchesExtension.csproj", "{2533947D-8D14-45CC-9AEB-625B7BCD1CC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2533947D-8D14-45CC-9AEB-625B7BCD1CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2533947D-8D14-45CC-9AEB-625B7BCD1CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2533947D-8D14-45CC-9AEB-625B7BCD1CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2533947D-8D14-45CC-9AEB-625B7BCD1CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9319FFA8-9FB9-4DCB-B0B3-51E2AE2AEDDF}
+	EndGlobalSection
+EndGlobal
