@@ -65,9 +65,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Start.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Strings.en.resx" />
     <EmbeddedResource Include="Strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +83,9 @@
     <None Include="Schema\Form.xsd">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Strategy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
