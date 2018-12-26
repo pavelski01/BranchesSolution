@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Dto\CommitDto.cs" />
     <Compile Include="Dto\ProjectInfoDto.cs" />
+    <Compile Include="Extender\CommitDetailsExtender.cs" />
+    <Compile Include="Extender\Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\GitComputeContext.cs" />
     <Compile Include="Strategy\GitComputeViaDtoStrategy.cs" />
