@@ -65,6 +65,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Start.txt" />
   </ItemGroup>
   <ItemGroup>
