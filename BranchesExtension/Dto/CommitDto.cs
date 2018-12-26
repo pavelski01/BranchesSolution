@@ -1,7 +1,5 @@
 ﻿using Soneta.Types;
 
-// ReSharper disable UnusedAutoPropertyAccessor.Global
-
 namespace BranchesExtension.Dto
 {
     public class CommitDto

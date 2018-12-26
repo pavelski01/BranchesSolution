@@ -1,8 +1,6 @@
 ﻿using BranchesExtension.Dto;
 using System.Collections.Generic;
 
-// ReSharper disable AutoPropertyCanBeMadeGetOnly.Local
-
 namespace BranchesExtension.Strategy
 {
     public class GitComputeContext

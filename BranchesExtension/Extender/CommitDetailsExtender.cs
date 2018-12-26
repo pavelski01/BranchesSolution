@@ -4,11 +4,6 @@ using BranchesExtension.Strategy;
 using Soneta.Business;
 using Soneta.Types;
 
-// ReSharper disable MemberCanBePrivate.Global
-// ReSharper disable UnusedMember.Global
-// ReSharper disable UnusedAutoPropertyAccessor.Global
-// ReSharper disable AutoPropertyCanBeMadeGetOnly.Global
-
 namespace BranchesExtension.Extender
 {
     public class CommitDetailsExtender
