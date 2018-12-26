@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<DataForm xmlns="http://www.enova.pl/schema/form.xsd">
+  <Page CaptionHtml="Szczegółowe informacje o commitach" DataContext="{DataSource}">
+    <Group CaptionHtml="Informacje o commitach">
+      <Row>
+        <Stack Height="*" Width="*">
+          <Flow Name="PathPanel">
+            <Stack>
+              <Field CaptionHtml="Ścieżka do repozytorium" EditValue="{PathToRepo}" LabelWidth="30" Width="30" />
+              <Field CaptionHtml="Okres aktywności projektu (data)" EditValue="{ProjectActivity}" IsReadOnly="True" LabelWidth="30" Width="30" />
+            </Stack>
+            <Stack>
+              <Field CaptionHtml="URL do repozytorium" EditValue="{UrlToRepo}" LabelWidth="30" Width="50" />
+              <Row>
+                <Field CaptionHtml="Okres aktywności projektu (dni)" EditValue="{DaysActivity}" IsReadOnly="True" LabelWidth="30" Width="5" />
+                <Command CaptionHtml="Procesuj" MethodName="ProccessRepo" Width="34" />
+              </Row>
+            </Stack>
+          </Flow>
+          <Grid EditValue="{DetailedInfos}" Height="*" Width="*" OrderBy="Date">
+            <Field CaptionHtml="Sprawca" Width="50" EditValue="{Committer}" />
+            <Field CaptionHtml="Data" Width="10" EditValue="{Date}" />
+            <Field CaptionHtml="Suma (dzienna)" Width="20" EditValue="{CommitsNumber}" />
+            <Field CaptionHtml="Średnia (indywidualna)" Width="20" EditValue="{CommitsPersonalAverage}" />
+            <Field CaptionHtml="Średnia (okresowa)" Width="20" EditValue="{CommitsProjectAverage}" />
+          </Grid>
+        </Stack>
+      </Row>
+    </Group>
+  </Page>
+</DataForm>
