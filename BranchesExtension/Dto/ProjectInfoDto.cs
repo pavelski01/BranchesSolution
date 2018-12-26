@@ -1,6 +1,6 @@
 ﻿using Soneta.Types;
 
-namespace enova365.Dodatek1.Dto
+namespace BranchesExtension.Dto
 {
     public class ProjectInfoDto
     {

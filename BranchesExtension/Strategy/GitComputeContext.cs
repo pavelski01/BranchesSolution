@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using enova365.Dodatek1.Dto;
+﻿using BranchesExtension.Dto;
+using System.Collections.Generic;
 
 // ReSharper disable AutoPropertyCanBeMadeGetOnly.Local
 
-namespace enova365.Dodatek1.Strategy
+namespace BranchesExtension.Strategy
 {
     public class GitComputeContext
     {

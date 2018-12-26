@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using enova365.Dodatek1.Dto;
-using LibGit2Sharp;
+using BranchesExtension.Dto;
 using Soneta.Types;
 
-namespace enova365.Dodatek1.Strategy
+namespace BranchesExtension.Strategy
 {
     public class GitComputeViaDtoStrategy : IGitComputeStrategy
     {

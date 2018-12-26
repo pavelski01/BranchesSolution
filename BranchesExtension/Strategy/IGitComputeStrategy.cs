@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using enova365.Dodatek1.Dto;
+﻿using BranchesExtension.Dto;
+using System.Collections.Generic;
 
-namespace enova365.Dodatek1.Strategy
+namespace BranchesExtension.Strategy
 {
     public interface IGitComputeStrategy
     {

@@ -2,7 +2,7 @@
 
 // ReSharper disable UnusedAutoPropertyAccessor.Global
 
-namespace enova365.Dodatek1.Dto
+namespace BranchesExtension.Dto
 {
     public class CommitDto
     {
