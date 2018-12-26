@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using BranchesExtension.Dto;
+using LibGit2Sharp;
 using Soneta.Types;
 
 namespace BranchesExtension.Strategy
