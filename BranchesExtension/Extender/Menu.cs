@@ -1,4 +1,4 @@
-﻿using enova365.Dodatek1.Extender;
+﻿using BranchesExtension.Extender;
 using Soneta.Business;
 using Soneta.Business.UI;
 
